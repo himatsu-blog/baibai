@@ -1,0 +1,90 @@
+@charset "UTF-8";
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+li {
+  list-style: none;
+}
+  
+header {
+  height: 200px;
+  background-color: rgb(107, 200, 243);
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.hima-blog h1 {
+  color: rgb(255, 255, 255);
+  padding: 50px;
+}
+
+.hima-blog a {
+  color: white;
+}
+
+.header-list ul li {
+  float: left;
+  margin-left: 50px;
+  font-size: 23px;
+  color: white;
+}
+
+.header-list a {
+  color: white;
+}
+
+.header-list :hover {
+  transition: 0.3s;
+  color: orange;
+}
+
+main {
+  background-color: linen;
+}
+
+.kiji {
+  width: auto;
+  height: 1000px;
+  background-color: white;
+  padding-left: 50px;
+  font-size: 20px;
+}
+
+@media (prefers-color-scheme: dark){
+  .main{
+            background-color: gray;
+            color: #faf8f7;;
+        }
+  }
+
+.section {
+  border-left: 15px solid lightblue;
+  border-bottom: 7px solid lightseagreen;
+  margin: 20px;
+  font-family: 'Noto Sans JP', sans-serif;
+  background-color: rgb(250, 250, 250);
+  
+}
+
+a {
+  color: tomato;
+}
+
+a:hover {
+  transition: 0.2s;
+  color: lightgreen;
+}
+
+.dai {
+    border-left: 15px solid lightblue;
+    border-bottom: 7px solid lightseagreen;
+    margin: 20px;
+    font-family: 'Noto Sans JP', sans-serif;
+    background-color: rgb(250, 250, 250);
+}
+
+@media (prefers-color-scheme: dark){
+  .header {
+    background-color: darkgray;
+      }
